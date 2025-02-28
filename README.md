@@ -1,50 +1,50 @@
-# Midterm Digital Signal Processing
+# Midterm Digital Signal Processing  
 
-## Giới thiệu
+## Introduction  
 
-Đây là kho lưu trữ chứa mã MATLAB dùng để xử lý và phân tích dữ liệu âm thanh.
+This repository contains MATLAB code for processing and analyzing audio data.  
 
-## Các tập tin
+## Files  
 
-- `main.m`: Tập tin chính gọi các hàm xử lý âm thanh.
-- `Phone_F1.m`: Xử lý tín hiệu âm thanh từ file `phone_F1.wav`.
-- `Phone_M1.m`: Xử lý tín hiệu âm thanh từ file `phone_M1.wav`.
-- `Studio_F1.m`: Xử lý tín hiệu âm thanh từ file `studio_F1.wav`.
-- `Studio_M1.m`: Xử lý tín hiệu âm thanh từ file `studio_M1.wav`.
+- `main.m`: The main script that calls audio processing functions.  
+- `Phone_F1.m`: Processes the audio signal from the `phone_F1.wav` file.  
+- `Phone_M1.m`: Processes the audio signal from the `phone_M1.wav` file.  
+- `Studio_F1.m`: Processes the audio signal from the `studio_F1.wav` file.  
+- `Studio_M1.m`: Processes the audio signal from the `studio_M1.wav` file.  
 
-## Cách sử dụng
+## Usage  
 
-Để chạy chương trình, mở MATLAB và thực thi tập tin `main.m`:
+To run the program, open MATLAB and execute the `main.m` script:  
 
 ```matlab
 main
-```
+```  
 
-## Mô tả các hàm
+## Function Descriptions  
 
-- `Phone_F1.m`:
-  - Đọc và xử lý dữ liệu từ tệp `phone_F1.wav`.
-  - Tính toán năng lượng ngắn hạn (STE) và tốc độ đổi dấu (ZCR).
-  - Chuẩn hóa dữ liệu và xác định điểm giao giữa STE và ZCR.
-  - Vẽ biểu đồ hiển thị các thông số liên quan.
+- `Phone_F1.m`:  
+  - Reads and processes data from the `phone_F1.wav` file.  
+  - Computes Short-Time Energy (STE) and Zero-Crossing Rate (ZCR).  
+  - Normalizes the data and determines intersection points between STE and ZCR.  
+  - Plots graphs displaying relevant parameters.  
 
-- `Phone_M1.m`:
-  - Đọc và xử lý dữ liệu từ tệp `phone_M1.wav`.
-  - Thực hiện các bước tương tự như `Phone_F1.m` với dữ liệu khác.
+- `Phone_M1.m`:  
+  - Reads and processes data from the `phone_M1.wav` file.  
+  - Performs the same calculations as `Phone_F1.m` on different data.  
 
-- `Studio_F1.m`:
-  - Đọc và xử lý dữ liệu từ tệp `studio_F1.wav`.
-  - Thực hiện các bước tính toán tương tự như các tệp trên.
+- `Studio_F1.m`:  
+  - Reads and processes data from the `studio_F1.wav` file.  
+  - Executes similar calculations as the previous scripts.  
 
-- `Studio_M1.m`:
-  - Đọc và xử lý dữ liệu từ tệp `studio_M1.wav`.
-  - Thực hiện các bước tính toán tương tự như các tệp trên.
+- `Studio_M1.m`:  
+  - Reads and processes data from the `studio_M1.wav` file.  
+  - Executes similar calculations as the previous scripts.  
 
-## Yêu cầu
+## Requirements  
 
-- MATLAB phiên bản mới nhất hoặc tương thích với cú pháp hiện tại.
-- Các tệp âm thanh (`phone_F1.wav`, `phone_M1.wav`, `studio_F1.wav`, `studio_M1.wav`) cần có trong cùng thư mục với mã nguồn.
+- The latest version of MATLAB or a compatible version.  
+- The audio files (`phone_F1.wav`, `phone_M1.wav`, `studio_F1.wav`, `studio_M1.wav`) must be in the same directory as the source code.  
 
-## Liên hệ
-Nếu có bất kỳ vấn đề nào khi chạy chương trình, vui lòng liên hệ qua email hoặc tạo issue trên repository này.
+## Contact  
 
+If you encounter any issues running the program, please contact via email or create an issue in this repository.  
